@@ -7,6 +7,7 @@ int main()
 	printf("%i\n",sub(a,b));
 	printf("%i\n",mul(a,b));
 	printf("%i\n"),div(a,b));
+	printf("Hope you enjoyed!\n");
 
 	return 0;
 }
