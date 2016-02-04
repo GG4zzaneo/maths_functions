@@ -7,6 +7,7 @@ int main()
 	printf("%i\n",sub(a,b));
 	printf("%i\n",mul(a,b));
 	printf("%i\n"),div(a,b));
+	printf("%i\n"),mod(a,b));
 
 	return 0;
 }
@@ -21,4 +22,7 @@ int mul(x,y){
 }
 int div(x,y){
 	return y / x;
+}
+int mod(x,y){
+	return y % x;
 }
